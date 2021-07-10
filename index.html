@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head><style>body {
+    text-align:center ;
+    background-color:lightgrey
+}
+h2{
+    background-color:#0f0f0f;
+    color:red;
+}
+.input{
+    height:25px;
+    padding:2px;
+    width:250px;
+    font-size:20px;
+    font-family:arial;
+    border:1px solid black;
+    text-align:center ;
+    }
+textarea{
+    height:100px;
+    padding:2px;
+    width:250px;
+    font-size:18px;
+    font-family:times new roman;
+    border:1px solid black;
+}
+.container{
+    background-color:white;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:-1px;
+    margin-right:-1px;
+}
+label{
+    text-align:left;
+}
+h3{
+    color:grey;
+}
+.mn{
+    height:30px;
+    width:70px;
+    border:0px;
+    border-radius:15px;
+}
+button{
+    height:30px;
+    width:70px;
+    border:0px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+}
+h4{
+    font-size:18px;
+}
+head{
+  
+}</style>
+        <title>Register</title>
+        <h1>Register</h1><div><h4>Menu</h4><a class="a" href="#basic"> <button class="mn">Basic</button></a><a class="a" href="#address"> <button class="mn">Address</button></a><a class="a"href="#login"> <button class="mn">Log in</button></a></div>
+    </head>
+    <body>
+        <div class="container"><form action="https://formspree.io/f/meqvljpq" method="POST">
+        <h2 id="basic">Basic</h2>
+   <label for="Full name">Full name*</label><br />
+   <input class="input" name="Full name" type="text" required/><br /><br />
+   <label for="name">Nick name*</label><br />
+   <input class="input" name="name" type="text" required/><br /><br />
+   
+   <label for="Mobile">Mobile</label><br />
+   <input class="input" name="Mobile" type="Number"/><br /><br />                            <label for="Profasion">Profasion*</label><br />
+       
+   <input type="text"class="input" required/><br /><br /><label>More about your profasion</label>
+       
+   <textarea></textarea><br /><br /><label for="About">More about you</label><br /><textarea name="About">I am ...</textarea><br /><br /><label for="bdg">Blood groop*</label><br /><select required/><option></option><option>A+</option><option>B+</option><option>O+</option><option>AB+</option><option>A-</option><option>B-</option><option>O-</option><option>AB-</option></select><br /><br />
+                <label for="Date of birth">Date of birth*</label><br /><input type="date" name="Date of birth"/><h2 id="address">Address*</h2><br><h3>Present address</h3>
+<label for="country">Country*</label><br />
+<input class="input" type="text" name="country" required/>
+<br><br />
+<label for="Divission">Division*</label><br />
+<input class="input"type="text" name="Division" required/>
+<br><br />
+<label for="Zila">Zila*</label><br />
+<input  class="input"type="text" name="Zila" required/>
+<br><br />
+<label for="Upzila">Upzila*</label><br />
+<input class="input"type="text" name="Upzila" required/>
+<br><br />
+<label for="Zip">Zip code*</label><br />
+<input class="input"type="text" name="Zip" required/>
+<br><br />
+<label for="Address line1">Address line 1*</label><br />
+<input class="input"type="text" name="Address line1" required/>
+<br><br />
+<label for="Address line2">Address line 2</label><br />
+<input type="text" class="input"name="Address line2"/>
+<br><br /><p></p><h3>Permanent address</h3><label for="country2">Country*</label><br /><br>
+<input class="input" type="text" name="country2" required/>
+<br><br />
+<label for="Divission2">Division*</label><br />
+<input class="input"type="text" name="Division2" required/>
+<br><br />
+<label for="Zila2">Zila*</label><br />
+<input  class="input"type="text" name="Zila"2 required/>
+<br><br />
+<label for="Upzila2">Upzila*</label><br />
+<input class="input"type="text" name="Upzila2" required/>
+<br><br />
+<label for="Zip2">Zip code*</label><br />
+<input class="input"type="text" name="Zip2" required/>
+<br><br />
+<label for="Address line1.2">Address line 1*</label><br />
+<input class="input"type="text" name="Address line1.2" required/>
+<br><br />
+<label for="Address line2.2">Address line 2</label><br />
+<input type="text" class="input"name="Address line2.2"/>
+<br><br />
+    
+<h2 id="login">Log in*</h2><br /><label for="Username">Username*</label><br /><input class="input" type="text" name="Username" required/><br /><br />
+               
+   <label for="Email">Email*</label><br />
+   <input class="input"type="email" name="Email" required//><br /><br /> <label for="password">Password*</label><br /><input type="Password"class="input" name="password" required/><h3 align="left"><i>"*" are required</i></h3><br />
+             <button>Submit</button>
+            </form></div>
+    </body>
+</html>
